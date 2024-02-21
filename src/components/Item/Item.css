@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-footer-item {
+    background-color: blueviolet;
+    color: white;
+}
+
+.card-image {
+    margin-bottom: 1rem;
+}
+
+.card-header-title {
+    margin-bottom: 1rem;
+}
+
+.image {
+    height: 190px;
+    padding: 2px;
+}
+
+.Option {
+    border-radius: 10px;
+    background-color: rgb(194, 49, 194);
+    color: white;
+    padding: 10px;
+}
+
+.Option:hover {
+    background-color: rgb(255, 0, 255);
+    color: white;
+}
