@@ -16,7 +16,7 @@ const products = [
         category: 'destilados',
         subcategory: 'gin',
         img: 'https://http2.mlstatic.com/D_NQ_NP_669806-MLA69756185508_062023-O.webp',
-        stock: 1,
+        stock: 12,
         description: 'GIN FLIPÁ MATE 750ml + LATA DE AGUA TÓNICA SCHWEPPES 310ml DE REGALO',
     },
     {
@@ -26,7 +26,7 @@ const products = [
         category: 'gaseosas',
         subcategory: 'agua-tonica',
         img: 'https://acdn.mitiendanube.com/stores/871/106/products/img_4907-1f27b05975aff0a04d17021651376473-480-0.jpeg',
-        stock: 1,
+        stock: 6,
         description: 'LATA DE AGUA TÓNICA SCHWEPPES 310ml',
     },
     {
@@ -38,6 +38,26 @@ const products = [
         img: 'https://http2.mlstatic.com/D_NQ_NP_861826-MLA69181949991_052023-O.webp',
         stock: 6,
         description: 'LOS BOTANICOS QUE NECESITAS PARA TU GIN TONIC PERFECTO',
+    },
+    {
+        id: '5',
+        name: 'Agua Tónica BritviC 310ml',
+        price: 1100,
+        category: 'gaseosas',
+        subcategory: 'agua-tonica',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_877572-MLA43001674302_082020-O.webp',
+        stock: 12,
+        description: 'LATA DE AGUA TÓNICA SCHWEPPES 310ml',
+    },
+    {
+        id: '6',
+        name: 'Mix 6 Botánicos Premium Gin Tonic - Spice Box Mendoza',
+        price: 2730,
+        category: 'botanicos',
+        subcategory: 'mix',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_618695-MLA69176872238_052023-O.webp',
+        stock: 6,
+        description: '200G DE LOS BOTANICOS QUE NECESITAS PARA TU GIN TONIC PERFECTO',
     }
 ]
 
