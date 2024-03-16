@@ -4,7 +4,7 @@ import "./Item.css";
 const Item = ({id, name, img, price, stock}) => {
     return (
         <article className="card">
-            <header className="card-header">
+            <header>
                 <h2 className="card-header-title">{name}</h2>
             </header>
             <picture className="card-image">
@@ -12,9 +12,7 @@ const Item = ({id, name, img, price, stock}) => {
             </picture>
             <section className="card-content">
                 <p className="content">
-                    Precio: ${price}
-                </p>
-                <p className="content">
+                    Precio: ${price} <br/>
                     Stock disponible: {stock}
                 </p>
             </section>

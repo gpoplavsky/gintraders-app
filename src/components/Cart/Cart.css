@@ -1,0 +1,36 @@
+.Option {
+    border-radius: 10px;
+    background-color: rgb(194, 49, 194);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+}
+
+.Option:hover {
+    background-color: rgb(255, 0, 255);
+    color: white;
+}
+
+.secondaryOption{
+    background-color: white;
+    color: black;
+}
+
+.secondaryOption:hover{
+    background-color: white;
+    text-decoration: underline;
+}
+
+.cartControls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CartMap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}

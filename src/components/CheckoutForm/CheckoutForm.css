@@ -1,0 +1,25 @@
+.CheckoutForm{
+    border: 1px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+.label{
+    margin-bottom: 20px;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: rgb(194, 49, 194);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(255, 0, 255);
+    color: white;
+}

@@ -1,0 +1,40 @@
+.CardItem{
+    border: 1px;
+    border-radius: 2px;
+    border-color: blueviolet;
+}
+
+.Header{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.ItemHeader{
+    color: blueviolet;
+}
+
+.ItemImg{
+    height: 300px;
+}
+
+.Info{
+    font-weight: lighter;
+}
+
+.ItemFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.Option {
+    border-radius: 10px;
+    background-color: rgb(194, 49, 194);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.Option:hover {
+    background-color: rgb(255, 0, 255);
+    color: white;
+}
